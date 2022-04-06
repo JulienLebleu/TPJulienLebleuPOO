@@ -23,7 +23,7 @@ export class Dresseur {
     if (this._pokeballs != null) {
       this._pokeballs.forEach((pokeball) => {
         cpt ++;
-        console.log("Pokeball n°" + cpt + ":"+ pokeball._contient._nom +", type: "+ pokeball._contient._type + ", pv: "+ pokeball._contient._pv +"/"+ pokeball._contient._pvMax)
+        console.log("Pokeball numéro" + cpt + ":"+ pokeball._contient._nom +", type: "+ pokeball._contient._type + ", pv: "+ pokeball._contient._pv +"/"+ pokeball._contient._pvMax)
       });
     } else {
       console.log("Vous n'avez aucune pokeballs");
